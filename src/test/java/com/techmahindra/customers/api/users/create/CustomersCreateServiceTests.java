@@ -2,8 +2,8 @@ package com.techmahindra.customers.api.users.create;
 
 import com.techmahindra.customers.api.users.common.UserDto;
 import com.techmahindra.customers.api.users.common.UserTestDataBuilder;
-import com.techmahindra.customers.api.users.repository.User;
-import com.techmahindra.customers.api.users.repository.UserRepository;
+import com.techmahindra.customers.repository.entity.User;
+import com.techmahindra.customers.repository.UserRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

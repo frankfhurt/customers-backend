@@ -1,7 +1,7 @@
 package com.techmahindra.customers.configuration.security.userdetails;
 
-import com.techmahindra.customers.api.users.repository.User;
-import com.techmahindra.customers.api.users.repository.UserRepository;
+import com.techmahindra.customers.repository.entity.User;
+import com.techmahindra.customers.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;

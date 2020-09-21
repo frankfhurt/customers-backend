@@ -1,4 +1,4 @@
-package com.techmahindra.customers.api.users.repository;
+package com.techmahindra.customers.repository.entity;
 
 import com.techmahindra.customers.api.entity.Model;
 import lombok.Getter;

@@ -1,6 +1,6 @@
 package com.techmahindra.customers.api.users.common;
 
-import com.techmahindra.customers.api.users.repository.User;
+import com.techmahindra.customers.repository.entity.User;
 import org.mapstruct.Mapper;
 
 @Mapper

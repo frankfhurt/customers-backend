@@ -1,6 +1,6 @@
 package com.techmahindra.customers.api.customers.common;
 
-import com.techmahindra.customers.repository.Customer;
+import com.techmahindra.customers.repository.entity.Customer;
 import com.techmahindra.customers.constants.ApplicationMappers;
 
 public class CustomerTestDataBuilder {

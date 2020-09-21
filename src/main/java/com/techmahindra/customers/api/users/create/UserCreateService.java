@@ -1,8 +1,8 @@
 package com.techmahindra.customers.api.users.create;
 
 import com.techmahindra.customers.api.users.common.UserDto;
-import com.techmahindra.customers.api.users.repository.User;
-import com.techmahindra.customers.api.users.repository.UserRepository;
+import com.techmahindra.customers.repository.entity.User;
+import com.techmahindra.customers.repository.UserRepository;
 import com.techmahindra.customers.constants.ApplicationMappers;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;

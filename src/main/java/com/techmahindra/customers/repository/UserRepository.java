@@ -1,5 +1,6 @@
-package com.techmahindra.customers.api.users.repository;
+package com.techmahindra.customers.repository;
 
+import com.techmahindra.customers.repository.entity.User;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 

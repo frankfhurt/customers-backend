@@ -1,7 +1,7 @@
 package com.techmahindra.customers.configuration.security.jwt;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.techmahindra.customers.api.users.repository.User;
+import com.techmahindra.customers.repository.entity.User;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.AuthenticationServiceException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
