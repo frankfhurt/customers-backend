@@ -17,10 +17,12 @@ RESTful API to make CRUD operations for Customers
 
 ## How to run
 
+You will need apache maven and Java 11
+
 1. Generate resources running: 
-```sh mvn clean install ```
+```mvn clean install ```
 1. Run the fat jar:
-```sh java -jar target/customers-backend.jar ```
+```java -jar target/customers-backend.jar ```
 
 If everything went well, the API will be running on http://localhost:8080
 
