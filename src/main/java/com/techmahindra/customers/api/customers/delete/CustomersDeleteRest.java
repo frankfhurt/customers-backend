@@ -18,9 +18,8 @@ public class CustomersDeleteRest extends CustomersRest {
     @DeleteMapping(path = "/{id}", produces = {MediaType.APPLICATION_JSON_VALUE})
     public ResponseEntity<?> deleteById(@PathVariable String id) throws NotFoundException {
 
-        if (service.deleteById(id))
-            return ResponseEntity.ok().build();
-        else
-            return ResponseEntity.notFound().build();
+        service.deleteById(id);
+        
+        return ResponseEntity.ok().build();
     }
 }
