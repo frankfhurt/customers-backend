@@ -20,7 +20,7 @@ import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)
-public class CustomersDetailServiceTest {
+public class CustomersDetailServiceTests {
 
     @Mock
     private CustomerRepository repository;

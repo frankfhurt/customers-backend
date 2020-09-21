@@ -26,7 +26,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
     @Sql(scripts = "/scripts/insert_user.sql", executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD),
     @Sql(scripts = "/scripts/delete_testing_data.sql", executionPhase = Sql.ExecutionPhase.AFTER_TEST_METHOD)
 })
-public class CustomersDetailRestTest extends RestTesting {
+public class CustomersDetailRestTests extends RestTesting {
 
     public static final String AUTH_ERROR_MSG = "Full authentication is required to access this resource";
 

@@ -20,7 +20,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 @RunWith(MockitoJUnitRunner.class)
-public class CustomersCreateServiceTest {
+public class CustomersCreateServiceTests {
 
     @Mock
     private CustomerRepository repository;
