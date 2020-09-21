@@ -18,10 +18,6 @@ RESTful API to make CRUD operations for Customers
 ## How to run
 
 1. Generate resources running: 
-```sh
-mvn clean install
-```
+```sh mvn clean install ```
 1. Run the fat jar:
-```sh
-java -jar target/customers-backend.jar
-```
+```sh java -jar target/customers-backend.jar ```
