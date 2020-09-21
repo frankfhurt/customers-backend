@@ -1,4 +1,4 @@
-package com.techmahindra.customers.api.entity;
+package com.techmahindra.customers.repository.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;
