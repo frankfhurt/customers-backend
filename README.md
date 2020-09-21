@@ -30,7 +30,7 @@ If everything went well, the API will be running on http://localhost:8080
 
 In order to use the API you first have to create your user and then make login to get your JWT token.
 
-#### Creating your user
+### Creating your user
 POST : http://localhost:8080/api/users
 
 Request Payload Example:
@@ -54,7 +54,7 @@ Response:
 }
 ```
 
-#### Login
+### Login
 POST : http://localhost:8080/api/login
 
 Request Payload Example:
@@ -75,7 +75,7 @@ Key: ```auth-token```
 
 Token (example): ```eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua2x5biIsImV4cCI6MTYwMDc1MTk3NX0.TNNNNVcOcYkLqsf_5k9qWG2fJ0GK-b2YZ0YD9XLVdm3l2jBoFpNYK7_CbPukyfWiMpyi3lpe6NoqAtR4S18rbA```
 
-#### Creating a Customer
+### Creating a Customer
 POST : http://localhost:8080/api/customers
 
 Request Payload Example:
@@ -111,7 +111,7 @@ Response:
 ```
 
 
-#### Retrieving a Customer
+### Retrieving a Customer
 GET : http://localhost:8080/api/customers/2
 
 Response:
@@ -132,7 +132,7 @@ Response:
 ```
 
 
-#### Updating a Customer
+### Updating a Customer
 PUT : http://localhost:8080/api/customers
 
 Request Payload Example:
@@ -169,7 +169,7 @@ Response:
 }
 ```
 
-#### Deleting a Customer
+### Deleting a Customer
 DELETE : http://localhost:8080/api/customers/2
 
 Response: HTTP 200
