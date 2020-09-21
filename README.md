@@ -67,7 +67,7 @@ Request Payload Example:
 
 From the Response Header, you will have to get the value from key ```auth-token```
 
-It will contain a toke similar to this: ```eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua2x5biIsImV4cCI6MTYwMDc1MTk3NX0.TNNNNVcOcYkLqsf_5k9qWG2fJ0GK-b2YZ0YD9XLVdm3l2jBoFpNYK7_CbPukyfWiMpyi3lpe6NoqAtR4S18rbA```
+It will contain a token similar to this: ```eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmcmFua2x5biIsImV4cCI6MTYwMDc1MTk3NX0.TNNNNVcOcYkLqsf_5k9qWG2fJ0GK-b2YZ0YD9XLVdm3l2jBoFpNYK7_CbPukyfWiMpyi3lpe6NoqAtR4S18rbA```
 
 You will need to set this on the Header for all next requests.
 
