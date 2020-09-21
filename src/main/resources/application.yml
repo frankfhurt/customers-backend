@@ -1,0 +1,41 @@
+server:
+  port: 8080
+  servlet:
+    contextPath: /api
+
+application:
+  token:
+    secret: Users@Backend2020!
+    expiration: 86400000
+    header: auth-token
+
+spring:
+  jpa:
+    database: H2
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+      database-platform: org.hibernate.dialect.H2Dialect
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+  data:
+    jpa:
+      repositories:
+        bootstrap-mode: default
+
+logging:
+  level:
+    org.springframework: ERROR
+    br.com.algar.controle: DEBUG
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"

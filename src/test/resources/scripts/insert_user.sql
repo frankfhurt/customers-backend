@@ -1,0 +1,2 @@
+insert into users (id, create_date, last_update, version, email, name, password, username)
+            values (1, CURRENT_TIMESTAMP(), null, 1, 'initial@email.com', 'name', '$2a$10$UJ1qpJbDjQ7LofVTneBay.HGo8fXdVPO62FfiaU5ICQrPSvobBNwa', 'initialUsername');
