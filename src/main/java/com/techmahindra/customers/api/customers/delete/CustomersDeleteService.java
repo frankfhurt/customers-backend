@@ -24,8 +24,8 @@ public class CustomersDeleteService {
             throw new IllegalArgumentException("id=" + id + " is invalid");
         }
 
-        Optional<Customer> user = repository.findById(customerId);
-        repository.delete(user.orElseThrow(() -> new NotFoundException("Customer not found for id=" + id)));
+        Optional<Customer> optionalCustomer = repository.findById(customerId);
+        repository.delete(optionalCustomer.orElseThrow(() -> new NotFoundException("Customer not found for id=" + id)));
 
         return true;
     }

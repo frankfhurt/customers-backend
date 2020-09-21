@@ -26,9 +26,11 @@ public class CustomersDetailService {
             throw new IllegalArgumentException("id=" + id + " is invalid");
         }
 
-        Optional<Customer> user = repository.findById(customerId);
+        Optional<Customer> optionalCustomer = repository.findById(customerId);
 
-        CustomerDto customerDto = ApplicationMappers.CUSTOMER_MAPPER.toCustomerDto(user.orElseThrow(() -> new NotFoundException("Customer not found for id=" + id)));
+        CustomerDto customerDto = optionalCustomer
+                .map(customer -> ApplicationMappers.CUSTOMER_MAPPER.toCustomerDto(customer))
+                .orElseThrow(() -> new NotFoundException("Customer not found for id=" + id));
 
         return customerDto;
     }
