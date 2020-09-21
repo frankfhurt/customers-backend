@@ -25,7 +25,7 @@ public class CustomersDeleteService {
         }
 
         Optional<Customer> user = repository.findById(customerId);
-        repository.delete(user.orElseThrow(() -> new NotFoundException("Customer not found with id=" + id)));
+        repository.delete(user.orElseThrow(() -> new NotFoundException("Customer not found for id=" + id)));
 
         return true;
     }
